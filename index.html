@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharv Pradip Kalambkar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Atharv Pradip Kalambkar</h1>
+            <p>Information Technology | Cloud AWS Specialist</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li>
+                <a href="#">More</a>
+                <ul class="dropdown">
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="extracurricular.html">Extra-Curricular</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <!-- Circular Image -->
+            <div class="photo-circle">
+                <img src="atharv.jpg" alt="Atharv's Photo">
+            </div>
+            <!-- Intro Text -->
+            <div class="intro-text">Hi! Myself Atharv Pradip Kalambkar</div>
+            <p>
+                I am a final-year student at JSPM's Rajarshi Shahu College of Engineering, Pune, specializing in Information Technology. 
+                With a passion for technology and innovation, I have gained strong expertise in OOPS, CN, DBMS, and AWS Cloud. 
+                I aim to leverage my skills to create impactful solutions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="section">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>Programming</h3>
+                <p>OOPS, CN, DBMS</p>
+            </div>
+            <div class="skill">
+                <h3>Cloud AWS</h3>
+                <p>EC2, S3, DynamoDB, API Gateway, etc.</p>
+            </div>
+            <div class="skill">
+                <h3>Specialization</h3>
+                <p>AWS Services Cloud</p>
+                <p>Python Programming</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-carousel">
+                <!-- Education Blocks -->
+                <div class="education-block active" data-index="0">
+                    <h3>B.E. in Information Technology</h3>
+                    <p>JSPM's Rajarshi Shahu College of Engineering, Pune | Present</p>
+                </div>
+                <div class="education-block" data-index="1">
+                    <h3>HSC</h3>
+                    <p>Shree Shivaji Jr College, Parbhani | 93.17% (2021)</p>
+                </div>
+                <div class="education-block" data-index="2">
+                    <h3>SSC</h3>
+                    <p>Gandhi Vidyalay, Parbhani | 79% (2019)</p>
+                </div>
+            </div>
+            <!-- Arrows for Navigation -->
+            <div class="carousel-controls">
+                <button class="arrow left-arrow">&lt;</button>
+                <button class="arrow right-arrow">&gt;</button>
+            </div>
+        </div>
+    </section>
+    <!-- Image Overlay for Full View -->
+    <div class="image-overlay">
+        <img src="" alt="Full Image">
+        <button class="close-btn">Close</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Atharv Pradip Kalambkar. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
